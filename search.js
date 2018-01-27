@@ -12,7 +12,7 @@ window.onload = function () {
     language: 'en-US',
     success: function(response) {
       var i = 0;
-      console.log(response);
+      // console.log(response);
       $.each(response, function () {
         $('#searchResults').after("<div class='row'><div class='col-md-7'><a href='show.html?tvId=" + response.results[i].id +"'><img class='img-fluid rounded mb-3 mb-md-0' src='https://image.tmdb.org/t/p/w500" + response.results[i].backdrop_path + "' /></a></div><div class='col-md-5'><h3>" + response.results[i].name + "</h3><p>" + response.results[i].overview + "</p><p><strong>Average Voter Rating</strong>: " + response.results[i].vote_average + "</p></div></div><br /><hr />");
         i++;
