@@ -15,3 +15,10 @@ window.onload = function () {
     }
   });
 }
+
+function search() {
+  var input = document.getElementById('searchInput').value;
+  if(event.keyCode == 13) {
+    window.location = 'results.html?search=' + input;
+  }
+}

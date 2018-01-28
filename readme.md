@@ -28,12 +28,14 @@ This was another simple challenge. My go-to library for UI is Bootstrap. Given i
 I only needed to make some minor css changes to each of these.
 
 ## Developing tests ##
-Developing the tests was the most difficult part of this project. This is only because I've only done test writing in Ruby using rspec. I've never written tests for JavaScript. Resolving this was easy - I did a quick search on popular JavaScript testing tools, found and implemented Jasmine, read a couple tutorials, and wrote my tests.
+Developing the tests was the most difficult part of this project. This is because I've only done test writing in Ruby using rspec. I've never written tests for JavaScript. Resolving this was fairly easy - I did a quick search on popular JavaScript testing tools, found and implemented Jasmine, read a couple tutorials, and wrote my tests.
 
 ## If I had more time ##
 This was a fun project because I could see a lot of things I could do to improve the app. I will most likely pursue the following changes when time permits:
-* limit the overview text on the initial page to provide consistent row height
+* fix the stretched images on single show view
+* insert placeholder image when poster nil
+* build more robust tests
 * incorporate icons to represent voting results: this would be a simple calculation and case statement to identify how many 'stars' would apply for the given rating
-* incorporate movies: I will create page tabs so the user can easily switch between movies and tv shows
 * I would leverage the database to list the show seasons and their corresponding images
-* I would parse the show link to identify where the user can watch the show and display this destination as a logo (e.g. Netflix logo).
+* I would parse the show link to identify where the user can watch the show and display this destination as a logo (e.g. Netflix logo)
+* incorporate movies: I will create page tabs so the user can easily switch between movies and tv shows.
